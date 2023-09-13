@@ -1,0 +1,73 @@
+body {
+    background-color: #F0EBE1;
+}
+
+.imagemSobre {
+    width: 38%;
+    height: auto;
+    margin-left: 12%;
+}
+
+h1 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 7vh;
+    color: #A66249;
+    text-align: center;
+}
+
+.textSobre {
+    width: 29%;
+    margin-top: -39.8%;
+    margin-left: auto;
+    margin-right: 12%;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    font-size: 2.7vh;
+    text-align: justify;
+}
+
+/*Tablets*/
+@media only screen and (min-width: 641px) and (max-width: 1220px) {
+    h1{
+        font-size: 5.5vw;
+    }
+
+    .imagemSobre{
+        width: 60%;
+        height: auto;
+        margin-left: 19.6vw;
+        
+    }
+
+    .textSobre{
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        font-size: 3vw;
+    }
+
+}
+
+/*Celular*/
+@media only screen and (max-width: 640px) {
+    h1{
+        font-size: 6.5vw;
+    }
+
+    .imagemSobre{
+        width: 70%;
+        height: auto;
+        margin-left: 14vw;
+        
+    }
+
+    .textSobre{
+        margin-top: 7%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        font-size: 4vw;
+    }
+
+}
